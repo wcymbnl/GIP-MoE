@@ -17,12 +17,9 @@ Open-vocabulary object detection (OVD) aims to recognize and localize object cat
 
 Pretrained checkpoints are available on [Google Drive](https://drive.google.com/drive/folders/1LpSnL2dKDP1epApCFNw7xg0VBGoXpbg1?hl=zh-cn).
 
-### Visualization
-We provide some visualization results as follows.
-
-![](./figures/visualization.svg)
-
-Note: Please refer to our paper for clearer and more detailed experimental results.
+<p align="center">
+  <img src="./figures/visualization.svg" width="100%">
+</p>
 ## Usage
 
 ### Installation
@@ -104,5 +101,3 @@ bash dist_train.sh configs/gip_moe_swin_t.py 4 --amp
 bash dist_test.sh configs/gip_moe_swin_t.py gip_moe_swin_t.pth 4
 ```
 
-
-# GIP-MoE
